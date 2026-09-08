@@ -43,3 +43,17 @@ except exception:
        pattern,
        text
      )
+     if match 
+       query = match.group
+       break
+
+   query = query.strip()
+   video_id = get_vid(query)
+   if not video_id:
+     return None 
+
+  return( 
+    "https://www.youtube,com/emkbed/"
+    + video_id 
+    + "?autoplay=1&mute=0"
+  )
