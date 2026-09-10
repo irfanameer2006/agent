@@ -50,7 +50,7 @@ def generator_email_with_gmail(command):
     },
     method = "POST"
   )
-for attempt in rangea(4):
+for attempt in range(4):
   try:
     with urllib.request.urlopen(req , timeout=30) as response
       data = json.loads(response.read().decode())
